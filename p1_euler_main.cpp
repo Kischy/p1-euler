@@ -9,7 +9,8 @@ int main(int argc, char** argv)
 		if( (i%3==0) || (i%5==0)  ) sum += i;
 	}
 	
-	std::cout << sum << "\n";
+	std::cout << "Solution first problem of ProjectEuler.net: " << sum << std::endl;
+
 	
 	return 0;
 }
